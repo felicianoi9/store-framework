@@ -22,7 +22,7 @@
             "titleText": "Top sellers"
           }
         }
-      },
+    },
       "product-summary.shelf": {
         "children": [
           "product-summary-image",
@@ -34,5 +34,5 @@
           "product-identifier.summary",
           "product-summary-buy-button"
         ]
-      }
+    }
 }
