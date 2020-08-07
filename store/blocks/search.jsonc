@@ -21,10 +21,10 @@
       "breadcrumb.search": true,
       "search-title.v2": true,
       "total-products.v2": true,
-      "order-by.v2": true,
-      "search-fetch-more": true,
-      "search-fetch-previous": true,
-      "filter-navigator.v3": true,
+      "order-by.v2": ["OrderByNameASC", "OrderByNameDESC"],
+      "search-fetch-more": "button",
+      "search-fetch-previous": "button",
+      "filter-navigator.v3": "repomsive",
       "search-content": true
 
     }
