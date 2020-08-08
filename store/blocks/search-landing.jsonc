@@ -1,0 +1,27 @@
+{
+    "store.custom#landing": { 
+        "blocks": [
+          "image#landingbanner", 
+          "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner" : {
+        "props": {
+            "src": "https://www.conexorama.com/wp-content/uploads/CON_Artigo_13_cuidadoscom_acapa.jpg",
+            "minWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery" : {
+        "props" : {
+            "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 8,
+                "queryField": "Blue Top Retro Camera"
+
+            }
+        }
+    }
+}
