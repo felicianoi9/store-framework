@@ -30,8 +30,8 @@
         "children": [
           "header-spacer",
           "rich-text#header",
-          "header-spacer",
-          "rich-text#header"
+          "header-spacer"
+          
         ]
     },
     "header-row#main": {
@@ -90,7 +90,7 @@
     },
     "minicart": {
         "props": {
-            
+
         }
     }
     
