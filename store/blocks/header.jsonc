@@ -17,8 +17,7 @@
         "header-row#notification",
         "header-row#main"
       ]
-    },
-  
+    },  
     
     "header-layout.mobile": { 
       "children": [
