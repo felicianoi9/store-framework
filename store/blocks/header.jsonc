@@ -11,14 +11,12 @@
       "header-layout.mobile"
     ]
   },
-
   "header-layout.desktop": {
     "children": [
       "header-row#notification",
       "header-row#main"
     ]
   },
-
   "header-layout.mobile": {
     "children": [
       "header-row#notification",
@@ -53,15 +51,12 @@
       "header-spacer",
       "minicart",
       "login"
-    ],
-  
+    ],  
     "props": {
       "sticky": true,
       "inverted":true
     }
-  },
-
-  
+  },  
   "header-row#search": {
     "children": [
       "search-bar"
