@@ -3,20 +3,11 @@
         "children":[ 
             "vtex.menu@2.x:menu#major",
             "flex-layout.row#major"
+            
         ]
     },
-
     
-    "vtex.menu@2.x:menu#major": {
-        "children": [
-            "menu-item#refrigerators",
-            "menu-item#ovens",
-            "menu-item#washers"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
+   
 
     "flex-layout.row#major": {
         "children": [
@@ -29,6 +20,18 @@
         "children" : [
             "vtex.menu@2.x:menu#major"
         ]
+    },
+
+     
+    "vtex.menu@2.x:menu#major": {
+        "children": [
+            "menu-item#refrigerators",
+            "menu-item#ovens",
+            "menu-item#washers"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
     },
 
     "flex-layout.col#img" : {
